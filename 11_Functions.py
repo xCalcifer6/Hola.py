@@ -38,3 +38,31 @@ def print_upper_texts(*texts):
         print(text.upper())
 
 print_upper_texts("Hola", "python", "como estas")
+
+
+def my_function(*kids): # Si no se conoce cuantos argumentos hay va el * .
+  print("The youngest child is " + kids[2])
+
+my_function("Emil", "Tobias", "Linus") # EL * sirve si no conocemos los parametros.
+
+def my_function(fname):
+  print(fname + " equisde ")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
+
+
+def my_function(food):
+  for x in food:
+    print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
+
+
+def my_function(x, /):
+  print(x)
+
+my_function(x = 3) # ERRPOR, el ,/ sirve para no modificar el argumento.

@@ -36,3 +36,8 @@ else:
     print("Es menor o igual que 10 o mayor o igual que 20 o distinto de 25")
 
 print("La ejecución continúa")
+
+
+a = 2
+b = 5
+print("YES") if a == b else print("NO") # Condicionales en una sola linea.

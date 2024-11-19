@@ -38,7 +38,7 @@ my_list = [12, 24, 35, 64, 88, 30, 30]
 for element in my_list:
         print(element)
         if element == 35:
-           continue # No se usa casi.
+           continue # No se usa casi. Es para saltear.
 else:
     print("el bucle de mi lista finalizo")
 

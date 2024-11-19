@@ -32,3 +32,20 @@ print(sexto_set) # Encuentra el punto en comun entre los sets.
 
 sexto_set = cuarto_set.isdisjoint(quinto_set)
 print(sexto_set) # Devuelve True si no hay coincidencias en ambos sets.
+
+fruits = {"apple", "banana", "cherry"}
+more_fruits = ["orange", "mango", "grapes"]
+fruits.update(more_fruits) # Como updatear un set.
+
+fruits.remove, fruits.discard # Remover items de un set.
+
+fruits.clear # Borrar todos los items de un set.
+
+
+set2 = {"asd, xd"}
+set3 = {"xd"}
+
+set1 = set2 | set3 # Como sumar sets en un nuevo set.
+
+set2.intersection(set3)
+print()
