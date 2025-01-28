@@ -21,3 +21,7 @@ from datetime import date
 
 current_date = date.today()
 print(current_date)
+
+from functools import reduce
+
+print(dir(reduce)) # IMPRIME todas las funciones o metodos de un modulo.
